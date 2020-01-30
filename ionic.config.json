@@ -1,0 +1,7 @@
+{
+  "name": "gambela",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
