@@ -1,8 +1,17 @@
-These are Cordova resources. You can replace icon.png and splash.png and run
-`ionic cordova resources` to generate custom icons and splash screens for your
-app. See `ionic cordova resources --help` for details.
+# gambella
+Ionic and Angula app using woocommerce api.
 
-Cordova reference documentation:
+Set up WordPress (https://wordpress.com/)
+https://wordpress.org/support/article/how-to-install-wordpress/
 
-- Icons: https://cordova.apache.org/docs/en/latest/config_ref/images.html
-- Splash Screens: https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-splashscreen/
+Intsall woocommerce and get the consumerKey and consumerSecret
+https://docs.woocommerce.com/document/woocommerce-rest-api/
+
+And add the keys on the files below:
+
+\apps\gambella\src\pages\checkout\checkout.ts
+\apps\gambella\src\pages\home\home.ts
+\apps\gambella\src\pages\menu\menu.ts
+\apps\gambella\src\pages\product-details\product-details.ts
+\apps\gambella\src\pages\products-by-category\products-by-category.ts
+\apps\gambella\src\pages\signup\signup.ts
